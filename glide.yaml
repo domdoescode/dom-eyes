@@ -1,0 +1,9 @@
+package: github.com/domudall/dom-eyes
+import:
+- package: github.com/lazywei/go-opencv
+  subpackages:
+  - opencv
+- package: github.com/disintegration/imaging
+- package: golang.org/x/image
+  subpackages:
+  - bmp

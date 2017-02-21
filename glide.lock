@@ -1,0 +1,16 @@
+hash: 7e470a8762ec9ed9cb4c82f47025a9031b8b37b38201b7713df37039f88bd44c
+updated: 2017-02-21T18:13:59.923960177Z
+imports:
+- name: github.com/disintegration/imaging
+  version: 243d2d8673c1225a6afceeb9b3b4423d485dc8df
+- name: github.com/lazywei/go-opencv
+  version: 76a80c792afab341300db33893a39c06b366787b
+  subpackages:
+  - opencv
+- name: golang.org/x/image
+  version: 791b6153280abd50454e9b95e0fb6987d46c138c
+  subpackages:
+  - bmp
+  - tiff
+  - tiff/lzw
+testImports: []
